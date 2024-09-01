@@ -1,0 +1,43 @@
+/* General container for the home page */
+.home-container {
+    min-height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+    min-height: 160vh; /* Full height */
+    padding: 0;
+}
+
+.sidebar-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #343a40;
+}
+
+.sidebar .nav-link {
+    padding: 15px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #343a40;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+/* Content area */
+.content {
+    padding: 20px;
+}
+
+.content-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
